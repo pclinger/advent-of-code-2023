@@ -2,12 +2,6 @@
 use strict;
 use warnings;
 
-my %max = (
-  red => 12,
-  green => 13,
-  blue => 14,
-);
-
 my @colors = ('red', 'green', 'blue');
 
 sub init {
