@@ -1,1 +1,1 @@
-$S='AKQJT98765432';$T+=++$c*int($_->[1])for sort{$y=$a->[0];$z=$b->[0];$r=0;@b=w($z);@a=w($y);$r||=$b[$_]<=>$a[$_]for(0..4);g($y)<=>g($z)||$r}map{[split(/ /)]}<>;print$T;sub g{my%s,my$t;$s{$_}++for split//,pop;$t+=$s{$_}**2 for keys%s;$t}sub w{map{i($_)}split//,pop};sub i{index($S,pop)}
+$S='AKQJT98765432';$T+=++$c*int($_->[1])for sort{$y=$a->[0];$z=$b->[0];$r=0;@b=w($z);@a=w($y);$r||=$b[$_]<=>$a[$_]for(0..4);g($y)<=>g($z)||$r}map{[split/ /]}<>;print$T;sub g{my%s,my$t;$s{$_}++for split//,pop;$t+=$s{$_}**2 for keys%s;$t}sub w{map{i($_)}split//,pop};sub i{index($S,pop)}
