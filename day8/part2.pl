@@ -61,7 +61,7 @@ sub init {
     }
     return $a;
   }
-  
+
   sub solve {
     my $count = 0;
     my $current = shift;
@@ -85,12 +85,6 @@ sub init {
     }
     return $count;
   }
-}
-
-sub parseIntsFromLine {
-  my $line = shift;
-  my @ints = $line =~ /(-?\d+)/g;
-  return @ints;
 }
 
 init();
