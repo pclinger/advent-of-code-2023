@@ -34,10 +34,4 @@ sub init {
   print "$count\n";
 }
 
-sub parseIntsFromLine {
-  my $line = shift;
-  my @ints = $line =~ /(-?\d+)/g;
-  return @ints;
-}
-
 init();
